@@ -1,0 +1,18 @@
+{
+    "name": "chenggx/design-patterns-php",
+    "description": "Sample code for several design patterns in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenggx",
+            "email": "chengguangxin927@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "Creational"
+        ]
+    }
+}
