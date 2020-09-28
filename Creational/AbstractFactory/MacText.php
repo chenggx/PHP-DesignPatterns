@@ -4,10 +4,10 @@
 namespace Creational\AbstractFactory;
 
 
-class MacText implements Text
+class MacText implements TextInterface
 {
-    public function render()
+    public function display()
     {
-        echo 'mac Text'.PHP_EOL;
+        echo 'mac 风格文本框'.PHP_EOL;
     }
 }

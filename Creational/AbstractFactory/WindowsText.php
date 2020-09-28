@@ -4,10 +4,10 @@
 namespace Creational\AbstractFactory;
 
 
-class WindowsText implements Text
+class WindowsText implements TextInterface
 {
-    public function render()
+    public function display()
     {
-        echo 'windows Text'.PHP_EOL;
+        echo 'windows 风格文本框'.PHP_EOL;
     }
 }

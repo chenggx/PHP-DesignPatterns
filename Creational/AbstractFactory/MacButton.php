@@ -4,10 +4,10 @@
 namespace Creational\AbstractFactory;
 
 
-class MacButton implements Button
+class MacButton implements ButtonInterface
 {
-    public function render()
+    public function display()
     {
-        echo 'mac button'.PHP_EOL;
+        echo 'mac 风格按钮'.PHP_EOL;
     }
 }

@@ -4,10 +4,10 @@
 namespace Creational\AbstractFactory;
 
 
-class WindowsButton implements Button
+class WindowsButton implements ButtonInterface
 {
-    public function render()
+    public function display()
     {
-        echo 'windows button'.PHP_EOL;
+        echo 'windows 风格按钮'.PHP_EOL;
     }
 }

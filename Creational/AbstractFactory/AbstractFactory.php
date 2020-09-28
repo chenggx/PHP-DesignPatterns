@@ -4,7 +4,9 @@
 namespace Creational\AbstractFactory;
 
 
-interface ButtonFactory
+interface AbstractFactory
 {
     public function createButton();
+
+    public function createText();
 }
