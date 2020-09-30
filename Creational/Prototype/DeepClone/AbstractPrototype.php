@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Creational\Prototype;
-
+namespace Creational\Prototype\DeepClone;
 
 
 Abstract class AbstractPrototype

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Creational/Singleton/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Singleton/Singleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestSingleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Prototype/ShallowClone/AbstractPrototype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Prototype/ShallowClone/Attachment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Prototype/ShallowClone/WeeklyLog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Prototype/AbstractPrototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/DeepClone/AbstractPrototype.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Prototype/Attachment.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/DeepClone/Attachment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Prototype/WeeklyLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/DeepClone/WeeklyLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPrototype.php" beforeDir="false" afterPath="$PROJECT_DIR$/TestPrototype.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +26,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/TestPrototype.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Creational/Prototype/ShallowClone/WeeklyLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Creational/Prototype/ShallowClone/AbstractPrototype.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/AbstractPrototype.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/WeeklyLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/Attachment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,6 +117,20 @@
         <option value="$PROJECT_DIR$/TestSingleton.php" />
         <option value="$PROJECT_DIR$/Creational/Singleton/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/FooBookPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/BookPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/BarBookPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/AbstranctPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/AbstractPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/Attachment.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/WeeklyLog.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/DeepClone/Attachment.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/ShallowClone/AbstractPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/ShallowClone/Attachment.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/DeepClone/WeeklyLog.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/DeepClone/AbstractPrototype.php" />
+        <option value="$PROJECT_DIR$/TestPrototype.php" />
+        <option value="$PROJECT_DIR$/Creational/Prototype/ShallowClone/WeeklyLog.php" />
       </list>
     </option>
   </component>
@@ -80,10 +139,11 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1847" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,7 +166,21 @@
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="Creational" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepClone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="ShallowClone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,6 +196,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Creational/Prototype/DeepClone" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +225,10 @@
       <option name="presentableId" value="Default" />
       <updated>1601189712580</updated>
       <workItem from="1601189714279" duration="4951000" />
-      <workItem from="1601252082618" duration="4541000" />
+      <workItem from="1601252082618" duration="5085000" />
+      <workItem from="1601273124638" duration="2649000" />
+      <workItem from="1601338371011" duration="4287000" />
+      <workItem from="1601427239720" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="新增 抽象工厂模式">
       <created>1601259527733</created>
@@ -155,17 +237,31 @@
       <option name="project" value="LOCAL" />
       <updated>1601259527734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增 单例模式模式">
+      <created>1601264233267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601264233268</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增 原型模式模式">
+      <created>1601374075502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601374075502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9492000" />
+    <option name="totallyTimeSpent" value="18669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="54" y="23" width="1847" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17518637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1767313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -191,7 +287,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增 抽象工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 抽象工厂模式" />
+    <MESSAGE value="新增 单例模式模式" />
+    <MESSAGE value="新增 原型模式模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 原型模式模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Windows.php" />
@@ -231,111 +329,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/ButtonFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Icon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/IconFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacButtonFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacIcon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacIconFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacTextFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/TextFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsButtonFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsIconFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsTextFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsIcon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Button.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/ButtonFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Icon.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/IconFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacButtonFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacIcon.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacIconFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/MacTextFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Text.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/TextFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsButtonFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsIconFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsTextFactory.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/WindowsIcon.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/Client.php" />
     <entry file="uml://PHP//Users/cc/phpCode/test/pattern/Creational/AbstractFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -344,9 +352,10 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="360.0" y="271.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="360.0" y="272.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
@@ -479,6 +488,58 @@
             <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/FooBookPrototype.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/BookPrototype.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/BarBookPrototype.php" />
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/ShallowClone/Attachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/Attachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/WeeklyLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/DeepClone/AbstractPrototype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/ShallowClone/AbstractPrototype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creational/Prototype/ShallowClone/WeeklyLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestPrototype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

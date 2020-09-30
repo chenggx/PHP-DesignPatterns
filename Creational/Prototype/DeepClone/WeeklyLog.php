@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Creational\Prototype;
+namespace Creational\Prototype\DeepClone;
 
 
 class WeeklyLog extends AbstractPrototype
@@ -56,7 +56,7 @@ class WeeklyLog extends AbstractPrototype
 
     public function copy()
     {
-//        return serialize($this);
-        return clone $this;
+        //深拷贝
+        return serialize($this);
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Creational\Prototype;
+namespace Creational\Prototype\DeepClone;
 
 
 class Attachment
