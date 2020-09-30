@@ -9,6 +9,7 @@ The patterns can be structured in roughly three different categories.
 * [AbstractFactory](Creational/AbstractFactory)
 * [Singleton](Creational/Singleton)
 * [Prototype](Creational/Prototype)
+* [Builder](Creational/Builder)
 ### [Structural]
 
 
