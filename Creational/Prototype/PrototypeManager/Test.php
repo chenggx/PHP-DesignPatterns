@@ -4,7 +4,7 @@ use Creational\Prototype\PrototypeManager\FAR;
 use Creational\Prototype\PrototypeManager\PrototypeManager;
 use Creational\Prototype\PrototypeManager\SRS;
 
-require 'vendor/autoload.php';
+require '../../../vendor/autoload.php';
 
 PrototypeManager::addPrototype('far', new FAR());
 $doc1 = PrototypeManager::getPrototype('far');

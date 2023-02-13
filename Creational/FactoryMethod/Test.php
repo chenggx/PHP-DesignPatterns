@@ -2,7 +2,7 @@
 
 use Creational\FactoryMethod\DatabaseLoggerFactory;
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 // 通过反射
 

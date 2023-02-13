@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../../../vendor/autoload.php';
 
 $ob1 = new \Creational\Prototype\DeepClone\WeeklyLog();
 $attachment = new \Creational\Prototype\DeepClone\Attachment();

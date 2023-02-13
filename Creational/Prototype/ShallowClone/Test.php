@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '../../../vendor/autoload.php';
 
 echo '******测试浅克隆************'.PHP_EOL;
 $ob1 = new \Creational\Prototype\ShallowClone\WeeklyLog();
