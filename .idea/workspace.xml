@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/EmailNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/NotificationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/WeChatApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/WeChatNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/AbstractFactory/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/AbstractFactory/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/Builder/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Builder/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/FactoryMethod/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/FactoryMethod/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/Prototype/DeepClone/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/DeepClone/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/Prototype/PrototypeManager/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/PrototypeManager/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/Prototype/ShallowClone/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Prototype/ShallowClone/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/Singleton/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Singleton/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/ChartFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/ChartFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +136,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -216,7 +216,7 @@
       <workItem from="1601273124638" duration="2649000" />
       <workItem from="1601338371011" duration="4287000" />
       <workItem from="1601427239720" duration="10713000" />
-      <workItem from="1676271464369" duration="791000" />
+      <workItem from="1676271464369" duration="6204000" />
     </task>
     <task id="LOCAL-00001" summary="新增 抽象工厂模式">
       <created>1601259527733</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601455180932</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix 修复因路径导致的测试无法使用">
+      <created>1676273288947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676273288947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -308,7 +315,8 @@
     <MESSAGE value="原型管理器" />
     <MESSAGE value="将测试文件移动到各自目录中，并改名为Test" />
     <MESSAGE value="新增建造者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增建造者模式" />
+    <MESSAGE value="fix 修复因路径导致的测试无法使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 修复因路径导致的测试无法使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/TextFactory.php" />
