@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/EmailNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/NotificationInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/WeChatApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/WeChatNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/CloudStorage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/ImageFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/LocalStorage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/Storage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/TextFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational/SimpleFactory/ChartFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/SimpleFactory/ChartFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "chenggx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:chenggx/PHP-DesignPatterns.git",
+    "accountId": "a4af0840-1ce7-4e61-89ca-6cfac3609927"
+  }
+}]]></component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -81,11 +100,14 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="30" />
     <option name="y" value="23" />
@@ -128,18 +150,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/cc/phpCode/PHP-DesignPatterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Creational/Singleton" />
@@ -200,6 +223,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -217,6 +248,7 @@
       <workItem from="1601338371011" duration="4287000" />
       <workItem from="1601427239720" duration="10713000" />
       <workItem from="1676271464369" duration="6204000" />
+      <workItem from="1725929031957" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="新增 抽象工厂模式">
       <created>1601259527733</created>

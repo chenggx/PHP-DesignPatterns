@@ -12,5 +12,6 @@ The patterns can be structured in roughly three different categories.
 * [Builder|建造者模式](Creational/Builder)
 ### [Structural]
 * [Adapter|适配器模式](Structural/Adapter)
+* [Bridge|桥接模式](Structural/Bridge)
 
 ### [Behavioral]

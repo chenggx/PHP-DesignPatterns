@@ -12,7 +12,8 @@
     "require": {},
     "autoload": {
         "classmap": [
-            "Creational"
+            "Creational",
+            "Structural"
         ]
     }
 }
