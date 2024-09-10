@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/CloudStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/ImageFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/LocalStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/Storage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/TextFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Bridge/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="更新 composer.lock">
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/Directory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/FileSystemComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/ImageFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/TextFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +150,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "PHP Script.test.php.executor": "Run",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/cc/phpCode/PHP-DesignPatterns",
@@ -160,6 +159,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -172,7 +172,7 @@
       <recent name="$PROJECT_DIR$/Creational/Prototype/DeepClone" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Test.php (1)">
+  <component name="RunManager" selected="PHP Script.test.php">
     <configuration name="Test.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Creational/Singleton/Test.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -182,14 +182,6 @@
       <method v="2" />
     </configuration>
     <configuration name="Test.php (2)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Creational/SimpleFactory/Test.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.3" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
-    <configuration name="Test.php (3)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Creational/Prototype/DeepClone/Test.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.3" />
@@ -213,13 +205,16 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Structural/Composite/test.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.Test.php (1)" />
         <item itemvalue="PHP Script.Test.php (2)" />
         <item itemvalue="PHP Script.Test.php (5)" />
         <item itemvalue="PHP Script.Test.php (4)" />
-        <item itemvalue="PHP Script.Test.php (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +243,7 @@
       <workItem from="1601338371011" duration="4287000" />
       <workItem from="1601427239720" duration="10713000" />
       <workItem from="1676271464369" duration="6204000" />
-      <workItem from="1725929031957" duration="1937000" />
+      <workItem from="1725929031957" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="新增 抽象工厂模式">
       <created>1601259527733</created>
@@ -306,7 +301,23 @@
       <option name="project" value="LOCAL" />
       <updated>1676273288947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加桥接模式">
+      <option name="closed" value="true" />
+      <created>1725933790306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725933790306</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新 composer.lock">
+      <option name="closed" value="true" />
+      <created>1725933815568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725933815568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -348,7 +359,9 @@
     <MESSAGE value="将测试文件移动到各自目录中，并改名为Test" />
     <MESSAGE value="新增建造者模式" />
     <MESSAGE value="fix 修复因路径导致的测试无法使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 修复因路径导致的测试无法使用" />
+    <MESSAGE value="增加桥接模式" />
+    <MESSAGE value="更新 composer.lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 composer.lock" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/TextFactory.php" />

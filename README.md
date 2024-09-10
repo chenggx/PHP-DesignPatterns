@@ -13,5 +13,5 @@ The patterns can be structured in roughly three different categories.
 ### [Structural]
 * [Adapter|适配器模式](Structural/Adapter)
 * [Bridge|桥接模式](Structural/Bridge)
-
+* [Composite|组合模式](Structural/Composite)
 ### [Behavioral]
