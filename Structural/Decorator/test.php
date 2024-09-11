@@ -2,7 +2,6 @@
 require '../../vendor/autoload.php';
 
 use Decorator\AuthenticatedRequest;
-use Decorator\EncryptedRequest;
 use Decorator\LoggingRequest;
 use Decorator\RateLimitedRequest;
 use Decorator\SimpleHttpRequest;

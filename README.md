@@ -1,6 +1,6 @@
 ## Patterns
 
-The patterns can be structured in roughly three different categories. 
+The patterns can be structured in roughly three different categories.
 
 ### [Creational]
 
@@ -10,9 +10,13 @@ The patterns can be structured in roughly three different categories.
 * [Singleton|单例模式](Creational/Singleton)
 * [Prototype|原型模式](Creational/Prototype)
 * [Builder|建造者模式](Creational/Builder)
+
 ### [Structural]
+
 * [Adapter|适配器模式](Structural/Adapter)
 * [Bridge|桥接模式](Structural/Bridge)
 * [Composite|组合模式](Structural/Composite)
 * [Decorator|装饰模式](Structural/Decorator)
+* [Facade|外观模式](Structural/Facade)
+
 ### [Behavioral]
