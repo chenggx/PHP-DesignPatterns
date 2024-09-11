@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="更新 composer.lock">
-      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/Directory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/FileSystemComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/ImageFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/TextFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Composite/test.php" afterDir="false" />
+    <list default="true" id="70b07db5-cc1a-49e3-81c6-db25d64de73f" name="Default Changelist" comment="添加组合模式">
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/AuthenticatedRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/HttpRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/HttpRequestDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/LoggingRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/RateLimitedRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/SimpleHttpRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -29,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "chenggx"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chenggx&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:chenggx/PHP-DesignPatterns.git",
-    "accountId": "a4af0840-1ce7-4e61-89ca-6cfac3609927"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:chenggx/PHP-DesignPatterns.git&quot;,
+    &quot;accountId&quot;: &quot;a4af0840-1ce7-4e61-89ca-6cfac3609927&quot;
   }
-}]]></component>
+}</component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -103,9 +103,9 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="30" />
     <option name="y" value="23" />
@@ -151,6 +151,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "PHP Script.test.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/cc/phpCode/PHP-DesignPatterns",
@@ -243,7 +244,8 @@
       <workItem from="1601338371011" duration="4287000" />
       <workItem from="1601427239720" duration="10713000" />
       <workItem from="1676271464369" duration="6204000" />
-      <workItem from="1725929031957" duration="3952000" />
+      <workItem from="1725929031957" duration="4404000" />
+      <workItem from="1726019240056" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="新增 抽象工厂模式">
       <created>1601259527733</created>
@@ -317,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725933815568</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加组合模式">
+      <option name="closed" value="true" />
+      <created>1725939521869</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725939521869</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -361,7 +371,8 @@
     <MESSAGE value="fix 修复因路径导致的测试无法使用" />
     <MESSAGE value="增加桥接模式" />
     <MESSAGE value="更新 composer.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 composer.lock" />
+    <MESSAGE value="添加组合模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加组合模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Creational/AbstractFactory/TextFactory.php" />
